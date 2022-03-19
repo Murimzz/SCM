@@ -54,7 +54,7 @@ def student_session(username):
 def teacher_session():
     while 1:
           print("")
-          print("Teacher menu")
+          print("Teachers menu !")
           print("1. Mark student register ")
           print("2. View register")
           print("3. logout")
