@@ -4,8 +4,6 @@ command_handler = db.cursor(buffered = True)
 
 
 
-
-
 def auth_student():
     print("")
     print("students login")
