@@ -196,7 +196,7 @@ def main():
         elif user_option == "3":
          auth_admin()
         else:
-            print("invalid input selected please try again now")    
+            print("invalid input selected please try again")    
 main()  
 
 
