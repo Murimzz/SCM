@@ -6,7 +6,7 @@ command_handler = db.cursor(buffered = True)
 
 def auth_student():
     print("")
-    print("students log")
+    print("students login")
     print("")
     username =input(str("Username :"))
     password = input(str("Password: "))
