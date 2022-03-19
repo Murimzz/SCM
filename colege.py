@@ -13,7 +13,7 @@ def auth_student():
     query_vals = (username,password,"student")
     command_handler.execute("SELECT username FROM users WHERE username =%s AND password =%s AND privilege =%s",query_vals) 
     if command_handler.rowcount <=0:
-        print("Invalid log details")
+        print("Invalid login  details")
     else:
         student_session(username)
 
@@ -41,7 +41,7 @@ def student_session(username):
                 with open("register.txt","w") as f:
                     f.write(str(records)+ "\n")
                     f.close()
-            print("All records saved")
+            print("All records are now saved")
         elif user_option == "3":
             break
 
