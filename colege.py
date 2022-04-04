@@ -182,7 +182,7 @@ def auth_teacher():
             teacher_session()
 def main():
     while 1:
-        print("Welcome to the system")
+        print("Welcome to our system")
         print("")
         print("1. login as student")
         print("2. login as teacher ")
